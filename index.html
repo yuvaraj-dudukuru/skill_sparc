@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none,noarchive" />
+</head>
+
+<body>
+
+    <div id="sectionHome">
+        <div class="main-container d-flex flex-column justify-content-end">
+            <div class="main-card-container">
+                <h1>Pack Your Bags</h1>
+                <p>Paln your trip with us</p>
+                <button class="btn btn-primary" onclick="display('sectionExplore')">Explore</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionExplore" class="explore-sec-container">
+        <h1 class="text-center">Explore our Packages</h1>
+        <div>
+
+            <div onclick="display('sectionHillStation')" class="explore-card-container d-flex flex-row">
+                <div>
+                    <h1>Hill Stations</h1>
+                    <p> Popular options include Manali, Shimla, Darjeeling, Munnar, Ooty, Mussoorie, Auli, Gulmarg, Srinagar, and Nainital.</p>
+                </div>
+                <img class="explore-card-img" src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749277733/asian-woman-wearing-chinese-traditional-dress-ban-rak-thai-village-mae-hong-son-province-thailand_335224-1168_hd0s0c.avif" />
+            </div>
+
+            <div class="explore-card-container d-flex flex-row">
+                <div>
+                    <h1>Mountain destinations</h1>
+                    <p> Best Mountain Places In India For a Perfect Vacation · 1. Manali, Himachal Pradesh · 2. Leh-Ladakh, Jammu & Kashmir · 3. Darjeeling, West Bengal · 4. Shimla</p>
+                </div>
+                <img class="explore-card-img" src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749276996/vertical-high-angle-shot-valbona-valley-national-park-clear-blue-sky-albania_181624-46470_ie4094.avif" />
+            </div>
+
+            <div class="explore-card-container d-flex flex-row">
+                <div>
+                    <h1>Spiritual Places</h1>
+                    <p> Some popular destinations include Varanasi, Rishikesh, Haridwar, Amritsar, and Pushkar.</p>
+                </div>
+                <img class="explore-card-img" src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749279070/tourisum_271168-160_xple1g.avif" />
+            </div>
+
+            <div class="explore-card-container d-flex flex-row">
+                <div>
+                    <h1>Adventurous Places </h1>
+                    <p> Adventure Places in India · 1. Ladakh: The Land of High Passes · 2. Rishikesh: The Adventure Capital of India · 3. Manali: The Gateway to</p>
+                </div>
+                <img class="explore-card-img" src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749279233/beautiful-landscape-shot-breathtaking-mountain-range-cordillera-huayhuash-peru_181624-4275_hbsrbd.avif" />
+            </div>
+            <button class="btn btn-secondary" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+
+    <div>
+        <div id="sectionHillStation">
+            <h1 class="text-center">Hill Stations</h1>
+            <div>
+
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749283451/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand_335224-1063_zuupaf.avif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749283449/road-village_1353-250_yqjjqr.avif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://res.cloudinary.com/dqt58wdlv/image/upload/v1749283404/amazing-aerial-shot-dilijan-landscape-armenia_181624-29691_jke3n7.avif" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p>Darjeeling (West Bengal): Known for its tea estates, panoramic views of Mount Kanchenjunga, and colonial architecture. Gulmarg (Jammu and Kashmir): A popular skiing and trekking destination, known for its stunning landscapes. Srinagar
+                    (Jammu and Kashmir): Famous for its Dal Lake, Mughal Gardens, and houseboat stays. Idukki (Kerala): Offers scenic views, the Idukki Arch Dam, and wildlife sanctuaries. Leh (Ladakh): The highest hill station in India, known for its
+                    unique culture and high-altitude landscapes. Mount Abu (Rajasthan): The only hill station in Rajasthan, known for its lakes, temples, and stunning views of the Aravalli Range. Kasol (Himachal Pradesh): A popular destination for backpackers,
+                    known for its unique atmosphere and hippie culture. </p>
+                <button class="btn btn-secondary" onclick="display('sectionExplore')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
