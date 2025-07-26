@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.main-container {
+    background-image: url('https://res.cloudinary.com/dqt58wdlv/image/upload/v1747759518/premium_photo-1661962542692-4fe7a4ad6b54_wwnb8m.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-card-container {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.explore-sec-container {
+    background-color: white;
+}
+
+.explore-card-container {
+    background-color: #f0fcf8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.explore-card-img {
+    width: 100px;
+    height: 120px;
+}
